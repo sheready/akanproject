@@ -7,14 +7,26 @@
     <link href="bootstrap-4.4.1-dist/css/" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <form>
-        <div class="form-row">
-      <div class="md-form md-outline input-with-post-icon datepicker">
-        <label for="example">Type your birth date here...</label><br>
-        <input placeholder="Select date" type="date" id="example" class="form-control" required>
+ <form>
+    <div class="form-group">
+    
+        <div class="md-form md-outline input-with-post-icon datepicker">
+        <label for="example">Type your birth date here...</label><br><br>
+        <input placeholder="Select date" type="date" id="example" class="form-control" required><br><br>
         </div>
     </div>
-      <button class="btn btn-primary btn-sm" type="submit">Submit form</button>
-      </form>
+    <button class="btn btn-primary btn-sm" type="submit">Submit form</button><br><br>
+    <div class="form-group">
+ <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
+      <label class="custom-control-label" for="defaultGroupExample1">Female</label><br>
+ </div>
+
+ <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
+        <label class="custom-control-label" for="defaultGroupExample2">Male</label>
+ </div> 
+    </div>
+</form>
 </body>
 </html>
