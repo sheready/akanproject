@@ -1,0 +1,34 @@
+.navbar .container-fluid>.navbar-header {
+    float: left;
+    margin-right: 10px;
+  }
+  .navbar .navbar-nav {
+    float: left;
+    margin: 5px;
+    
+  }
+  .nav>li {
+    float: left;
+    padding-right: 25px;
+    font-size: 35px;
+    
+    
+  }
+  .navbar-nav {
+    display: inline-block;
+  }
+  
+  .navbar-nav>li {
+     display: inline-block;
+     
+  }
+ .card-img-top{
+      height: 450px;
+      width: 100%;
+      
+  }
+  #oneh1{
+      color:white;
+      text-align:center;
+      
+  }
