@@ -29,7 +29,7 @@
       </div>
     </div>
   </div>
-</div>
+
 <div id="maincard" class="card" style="width: 100%;">
 <div class="card" style="width: 50%;">
 <div id="carouselExampleFade" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="2000">
@@ -102,34 +102,7 @@
       </div>
 </div>
 </div>
-<script>
-    $(document).ready(function(){
-      // Activate Carousel
-      $("#carouselExampleFade").carousel();
-        
-      // Enable Carousel Indicators
-      $(".item1").click(function(){
-        $("#carouselExampleFade").carousel(0);
-      });
-      $(".item2").click(function(){
-        $("#carouselExampleFade").carousel(1);
-      });
-      $(".item3").click(function(){
-        $("#carouselExampleFade").carousel(2);
-      });
-      $(".item4").click(function(){
-        $("#carouselExampleFade").carousel(3);
-      });
-        
-      // Enable Carousel Controls
-      $(".left").click(function(){
-        $("#carouselExampleFade").carousel("prev");
-      });
-      $(".right").click(function(){
-        $("#carouselExampleFade").carousel("next");
-      });
-    });
-    </script>
+<script src="index.js"></script>
 <div class="card" >
     <img class="card-img-top" src="https://i.ytimg.com/vi/IEhPP39tMQ8/maxresdefault.jpg" style="width:100%">
     <div class="card-img-overlay">
@@ -139,28 +112,27 @@
     </div>
   </div>
 <div class="card-group">
+    <div class="container">
+        <form id="birthdate" method="POST">
     <div class="card bg-success">
     <div class="form-group">
-    
-        <div class="md-form md-outline input-with-post-icon datepicker">
-        <label for="example">Type your birth date here...</label><br><br>
-        <input placeholder="Select date" type="date" id="example" class="form-control" required><br>
+    <div class="md-form md-outline input-with-post-icon datepicker">
+        <label for="birthdate">Type your birth date here...</label><br><br>
+        <input placeholder="Select date" type="date" id="birthdate" class="form-control" required><br>
         </div>
-    </div>
-    </div>
-
-
-<div class="card bg-warning">
-<div class="form-group">
- <div class="custom-control custom-radio">
-     <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="groupOfDefaultRadios">
-      <label class="custom-control-label" for="defaultGroupExample1">Female</label><br>
- </div>
-    <div class="custom-control custom-radio">
-    <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="groupOfDefaultRadios" checked>
-    <label class="custom-control-label" for="defaultGroupExample2">Male</label>
- </div> 
-    <button class="btn btn-primary btn-sm" type="submit">Submit form</button><br><br>
+        <div class="form-check-inline">
+            <label class="form-check-label" for="check1">
+              <input type="checkbox" class="form-check-input" id="female" name="female" value="female" checked>Female
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="check2">
+              <input type="checkbox" class="form-check-input" id="male" name="female" value="female">Male
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 </div>
 </div>
 
