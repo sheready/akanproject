@@ -44,3 +44,16 @@
    font-size: 30px;
    font-weight: bold;
  }
+ #shareh2{
+   text-align: center;
+   font-weight: 25px;
+   color:yellow;
+ }
+ #share{
+   font-size: 25px;
+ }
+ #display{
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+ }
