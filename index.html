@@ -103,42 +103,36 @@
 </div>
 </div>
 <script src="index.js"></script>
-<div class="card" >
-    <img class="card-img-top" src="https://i.ytimg.com/vi/IEhPP39tMQ8/maxresdefault.jpg" style="width:100%">
-    <div class="card-img-overlay">
-      <h2 class="card-title">ABOUT</h2>
-      <p class="card-text">This page helps you know your Akan name by simply inputiing your birth date and gender.</p>
-     
-    </div>
-  </div>
-<div class="card-group">
-    <div class="container">
-        <form id="birthdate" method="POST">
-    <div class="card bg-success">
+  
+
+  <form id="form_data">
+
+    <div class="form-group ">
+        <label class="label-control ">Enter your date of birth:</label>
+        <input class="form-control " type="date" id="birthdate" value=""
+            placeholder="Enter your dateofbirth">
+    </div><br>
+
+    <div class="form-group ">
+        <label>Choose your gender:</label>
+        <select id="gender" class="form-control">
+            <option>Choose your gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </div><br>
     <div class="form-group">
-    <div class="md-form md-outline input-with-post-icon datepicker">
-        <label for="birthdate">Type your birth date here...</label><br><br>
-        <input placeholder="Select date" type="date" id="birthdate" class="form-control" required><br>
-        </div>
-        <div class="form-check-inline">
-            <label class="form-check-label" for="check1">
-              <input type="checkbox" class="form-check-input" id="female" name="female" value="female" checked>Female
-            </label>
-          </div>
-          <div class="form-check-inline">
-            <label class="form-check-label" for="check2">
-              <input type="checkbox" class="form-check-input" id="male" name="female" value="female">Male
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-</div>
-</div>
-</div>
 
+        <button type="button" class="btn btn-success btn-sm" value="submit"
+            >submit</button>
+        
 
-    <div class="card bg-danger">
     </div>
+  
+</form>
+
 </div>
+
+
 </body>
 </html>
