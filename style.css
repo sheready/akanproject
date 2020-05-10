@@ -11,15 +11,14 @@
     float: left;
     padding-right: 25px;
     font-size: 35px;
-    
-    
-  }
+}
   .navbar-nav {
     display: inline-block;
   }
   
   .navbar-nav>li {
      display: inline-block;
+     
      
   }
  .card-img-top{
@@ -28,7 +27,11 @@
       
   }
   #oneh1{
-      color:white;
+      color:yellow;
       text-align:center;
-      
+      font-size:40px;
   }
+ #maincard{
+     display: flex;
+     flex-direction: row;
+ }
