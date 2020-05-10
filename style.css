@@ -22,7 +22,7 @@
      
   }
  .card-img-top{
-      height: 450px;
+      height: 550px;
       width: 100%;
       
   }
@@ -34,4 +34,13 @@
  #maincard{
      display: flex;
      flex-direction: row;
+ }
+ #About{
+   font-size: 25px;
+   color:black
+ }
+ #abouth2{
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
  }
